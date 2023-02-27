@@ -21,7 +21,7 @@ public class Vehicle {
         for (Engine engine : engines) {
             engine.printSpecs();
         }
-        System.out.println("Huippunopeus: " + maxSpeed);
+        System.out.println("Huippunopeus: " + maxSpeed + "km/h");
         System.out.println();
     }
 }
